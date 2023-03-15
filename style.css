@@ -1,0 +1,72 @@
+body {
+background: radial-gradient(gray , dimgray, black);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    color: #ffcf00;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: fantasy;
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 10px;
+}
+
+div#nav {
+   position: relative;
+
+}
+
+p {
+    font-size: 25px;
+    font-family: fantasy;
+    color: darkslategrey;
+}
+
+div#about {
+    background-color: darkgray;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+div#services {
+    background-color: darkgray;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+div#links {
+    background-color: darkgray;
+    border-radius: 10px;
+    max-width: 1400px;
+}
+
+span {
+  display: flex;
+    flex-direction: row;
+}
+
+div {
+margin: 20px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: #ffcf00;
+    border-color: black;
+    text-decoration-color: black;
+   margin-bottom: 20px;
+}
+
+
