@@ -28,10 +28,16 @@ div#nav {
 
 }
 
-p {
+.p1 {
     font-size: 25px;
     font-family: fantasy;
-    color: darkslategrey;
+    color: darkslategray;
+}
+
+.p2{
+    font-size: 25px;
+    font-family: fantasy;
+    color: darkred;
 }
 
 div#about {
