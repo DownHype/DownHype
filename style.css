@@ -55,7 +55,7 @@ div#services {
 div#links {
     background-color: darkgray;
     border-radius: 10px;
-    max-width: 1400px;
+    max-width: 1500px;
 }
 
 span {
@@ -73,6 +73,11 @@ button{
     border-color: black;
     text-decoration-color: black;
    margin-bottom: 20px;
+}
+
+div#all {
+  text-align: center;  
+display: inline-block;
 }
 
 
