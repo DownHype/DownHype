@@ -1,5 +1,5 @@
 body {
-background: radial-gradient(gray , dimgray, black);
+background: radial-gradient(#353535 , #292929, black);
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -78,6 +78,14 @@ button{
 div#all {
   text-align: center;  
 display: inline-block;
+}
+
+.fade-in-image { animation: fadeIn 3s; }
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 
