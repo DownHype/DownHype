@@ -1,0 +1,129 @@
+body {
+background: radial-gradient(#353535 , #292929, black);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.h2nd {
+    font-size: 25px;
+    font-family: fantasy;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: fantasy;
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 10px;
+}
+
+div#nav {
+position: relative;
+    display: flex;
+    flex-direction: row;
+   margin: 0px;
+    padding: 0px;
+
+}
+
+div#navtext {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   margin: 0px;
+    padding: 0px;
+    line-height: 1px;
+}
+
+.p1 {
+    font-size: 25px;
+    font-family: fantasy;
+    color: goldenrod;
+}
+
+.p2{
+    font-size: 25px;
+    font-family: fantasy;
+    color: darkred;
+}
+
+.p3 {
+    font-size: 25px;
+    font-family: fantasy;
+    color: cadetblue;
+}
+
+div#about {
+    background-color: darkgray;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+div#services {
+    background-color: darkgray;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+div#links {
+    background-color: darkgray;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+div#team {
+    background-color: darkgray;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+span {
+  display: flex;
+    flex-direction: row;
+}
+
+div {
+margin: 20px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: skyblue;
+    border-color: black;
+    text-decoration-color: black;
+   margin-bottom: 20px;
+}
+
+div#all {
+  display: flex;
+    flex-direction: row;
+}
+
+div#back {
+    background-color: rgba(169, 169, 169, 0.5);
+    border-radius: 10px;
+    max-height: 50px;
+}
+
+.fade-in-image { animation: fadeIn 3s; }
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
